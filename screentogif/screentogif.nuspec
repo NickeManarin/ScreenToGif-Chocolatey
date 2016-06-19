@@ -5,7 +5,7 @@
     <title>Screen To Gif</title>
     <version>1.4.2</version>
     <authors>ScreenToGif</authors>
-    <owners>Anthony Mastrean</owners>
+    <owners>Nicke Manarin</owners>
     <summary>This tool allows you to record a selected area of your screen and save it as a Gif.</summary>
     <description>
 This tool allows you to record a selected area of your screen and save it as a Gif.
@@ -24,7 +24,7 @@ Features:
     </description>
     <projectUrl>https://screentogif.codeplex.com</projectUrl>
     <projectSourceUrl>https://screentogif.codeplex.com/SourceControl/latest</projectSourceUrl>
-    <packageSourceUrl>https://github.com/AnthonyMastrean/chocolateypackages/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/NickeManarin/ScreenToGif-Chocolatey</packageSourceUrl>
     <docsUrl>https://screentogif.codeplex.com/documentation</docsUrl>
     <releaseNotes>https://screentogif.codeplex.com/releases/view/617012</releaseNotes>
     <bugTrackerUrl>https://screentogif.codeplex.com/workitem/list/basic</bugTrackerUrl>
