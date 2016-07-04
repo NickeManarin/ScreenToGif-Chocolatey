@@ -32,6 +32,6 @@ Features:
     <tags>screen recording recorder gif</tags>
     <licenseUrl>https://screentogif.codeplex.com/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/AnthonyMastrean/chocolateypackages/3cdf4869fbba994eae1799270a536ab435200e84/public/icons/screentogif.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/NickeManarin/ScreenToGif-Chocolatey/master/screentogif.png</iconUrl>
   </metadata>
 </package>
