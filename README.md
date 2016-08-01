@@ -17,11 +17,11 @@ default is MD5, but a stronger/longer checksum is preferred. PowerShell defaults
 to SHA256, which is fine.
 
 ```
-PS> Get-FileHash '.\ScreenToGif x.y.z.jar'
+PS> Get-FileHash '.\ScreenToGif x.y.z.exe'
 
 Algorithm   Hash                                                               Path
 ---------   ----                                                               ----
-SHA256      AAAAABBBBBCCCCCDDDDDEEEEEFFFFFGGGGGHHHHHIIIIIJJJJJKKKKKLLLLLMMMM   C:\Users\anthony\Downloads\Sc...
+SHA256      AAAAABBBBBCCCCCDDDDDEEEEEFFFFFGGGGGHHHHHIIIIIJJJJJKKKKKLLLLLMMMM   C:\Users\Nicke\Downloads\Sc...
 ```
 
 ## Infrequently Updated
