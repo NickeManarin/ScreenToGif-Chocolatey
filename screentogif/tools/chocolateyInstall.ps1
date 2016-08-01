@@ -1,12 +1,12 @@
 $tools = Split-Path $MyInvocation.MyCommand.Definition
 $content = Join-Path (Split-Path $tools) 'content'
 $shortcut = Join-Path ([System.Environment]::GetFolderPath('CommonPrograms')) 'ScreenToGif.lnk'
-$exe = Join-Path $content 'ScreenToGif 2.exe'
+$exe = Join-Path $content 'ScreenToGif 2.1.exe'
 
 Install-ChocolateyZipPackage `
     -PackageName 'screentogif' `
-    -Url 'http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=screentogif&DownloadId=1572748&FileTime=131101759333270000&Build=21031' `
-    -Checksum '8f9db5b99c1c95ced26886992be0ec44d9512b7ab46bef3f18d5a29c7fb5e3ca' `
+    -Url 'http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=screentogif&DownloadId=1597782&FileTime=131144970380730000&Build=21031' `
+    -Checksum '65BF9F9B8F17B2C2B85720F6F4DD4A35561A9554A217183A3F8D95E390114F14' `
     -ChecksumType 'SHA256'
     -UnzipLocation $content
 
