@@ -7,7 +7,7 @@ Install-ChocolateyZipPackage `
     -PackageName 'screentogif' `
     -Url 'http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=screentogif&DownloadId=1597782&FileTime=131144970380730000&Build=21031' `
     -Checksum '65BF9F9B8F17B2C2B85720F6F4DD4A35561A9554A217183A3F8D95E390114F14' `
-    -ChecksumType 'SHA256'
+    -ChecksumType 'SHA256' `
     -UnzipLocation $content
 
 Install-ChocolateyShortcut `
