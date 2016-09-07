@@ -2,6 +2,7 @@ $tools = Split-Path $MyInvocation.MyCommand.Definition
 $content = Join-Path (Split-Path $tools) 'content'
 $shortcut = Join-Path ([System.Environment]::GetFolderPath('CommonPrograms')) 'ScreenToGif.lnk'
 $exe = Join-Path $content 'ScreenToGif 2.2.exe'
+$exe2 = Join-Path $content 'ScreenToGif.exe'
 
 Install-ChocolateyZipPackage `
     -PackageName 'screentogif' `
@@ -10,8 +11,8 @@ Install-ChocolateyZipPackage `
     -ChecksumType 'SHA256' `
     -UnzipLocation $content
 
+Move-Item $exe $exe2 -force
+
 Install-ChocolateyShortcut `
     -ShortcutFilePath $shortcut `
-    -TargetPath $exe
-
-New-Item -Type 'File' -Force -Path "$exe.ignore" | Out-Null
+    -TargetPath $exe2
