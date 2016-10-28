@@ -3,7 +3,7 @@
   <metadata>
     <id>screentogif</id>
     <title>Screen To Gif</title>
-    <version>2.2.160907</version>
+    <version>2.3</version>
     <authors>ScreenToGif</authors>
     <owners>Nicke Manarin</owners>
     <summary>This tool allows you to record a selected area of your screen and save it as a gif or video.</summary>
@@ -18,17 +18,17 @@ Features:
  * Remove frames that you don't want.
  * Select a folder to save the file automatically or select one before encoding.
  * Add the system cursor to your recording.
- * Very small sized and portable (uses a settings file under the AppData folder) executable.
+ * Very small sized and portable executable.
     </description>
     <projectUrl>https://github.com/NickeManarin/ScreenToGif</projectUrl>
     <projectSourceUrl>https://github.com/NickeManarin/ScreenToGif</projectSourceUrl>
     <packageSourceUrl>https://github.com/NickeManarin/ScreenToGif-Chocolatey</packageSourceUrl>
     <docsUrl>https://github.com/NickeManarin/ScreenToGif/wiki</docsUrl>
-    <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.1</releaseNotes>
+    <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.3</releaseNotes>
     <bugTrackerUrl>https://github.com/NickeManarin/ScreenToGif/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/NickeManarin/ScreenToGif/issues</mailingListUrl>
     <tags>screen recording recorder gif</tags>
-    <licenseUrl>https://screentogif.codeplex.com/license</licenseUrl>
+    <licenseUrl>https://github.com/NickeManarin/ScreenToGif/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/NickeManarin/ScreenToGif-Chocolatey/master/screentogif.png</iconUrl>
   </metadata>
