@@ -1,6 +1,6 @@
 # Chocolatey Package
 
-Welcome to the Chocolatey package for Screen to Gif.
+Welcome to the Chocolatey package for Screen to Gif. Available at https://chocolatey.org/packages/screentogif/
 
 ## Frequently Updated
 
