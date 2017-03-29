@@ -3,7 +3,7 @@
   <metadata>
     <id>screentogif</id>
     <title>Screen To Gif</title>
-    <version>2.4.0.170115</version>
+    <version>2.7.0</version>
     <authors>ScreenToGif</authors>
     <owners>Nicke Manarin</owners>
     <summary>This tool allows you to record a selected area of your screen and save it as a gif or video.</summary>
@@ -13,10 +13,10 @@
     <projectSourceUrl>https://github.com/NickeManarin/ScreenToGif/tree/master</projectSourceUrl>
     <packageSourceUrl>https://github.com/NickeManarin/ScreenToGif-Chocolatey</packageSourceUrl>
     <docsUrl>https://github.com/NickeManarin/ScreenToGif/wiki</docsUrl>
-    <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.4</releaseNotes>
+    <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.7</releaseNotes>
     <bugTrackerUrl>https://github.com/NickeManarin/ScreenToGif/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/NickeManarin/ScreenToGif/issues</mailingListUrl>
-    <tags>screen recording recorder gif</tags>
+    <tags>screen recording recorder gif editor</tags>
     <licenseUrl>https://github.com/NickeManarin/ScreenToGif/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/NickeManarin/ScreenToGif-Chocolatey/master/screentogif.png</iconUrl>
