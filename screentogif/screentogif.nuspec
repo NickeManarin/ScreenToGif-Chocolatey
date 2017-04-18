@@ -7,7 +7,19 @@
     <authors>ScreenToGif</authors>
     <owners>Nicke Manarin</owners>
     <summary>This tool allows you to record a selected area of your screen and save it as a gif or video.</summary>
-    <description>Visit screentogif.com for more details.
+    <description>Screen, webcam and sketchboard recorder with an integrated editor.
+      
+## Features
+
+- A portable, single executable and very small-sized application.
+- Free and open source application, without any ads.
+- 3 ways of recording your content: Screen, Webcam and Sketchboard.
+- A powerful editor with lots of options! You can edit your recording or even edit gifs from other sources.
+- You can export as Gif, Video or save as a project to edit later.
+- A clean and consistent interface, powered by WPF.
+- Over 18 different languages. Automatically detects the language of your system, defaults to English.
+- Lots of options.
+- Visit http://screentogif.com for more details.
     </description>
     <projectUrl>https://github.com/NickeManarin/ScreenToGif</projectUrl>
     <projectSourceUrl>https://github.com/NickeManarin/ScreenToGif/tree/master</projectSourceUrl>
@@ -16,7 +28,7 @@
     <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.7</releaseNotes>
     <bugTrackerUrl>https://github.com/NickeManarin/ScreenToGif/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/NickeManarin/ScreenToGif/issues</mailingListUrl>
-    <tags>screen recording recorder gif editor</tags>
+    <tags>screen recording recorder gif editor foss media </tags>
     <licenseUrl>https://github.com/NickeManarin/ScreenToGif/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/NickeManarin/ScreenToGif-Chocolatey/master/screentogif.png</iconUrl>
