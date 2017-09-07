@@ -1,6 +1,8 @@
 # Chocolatey Package
 
-Welcome to the Chocolatey package for Screen to Gif. Available at https://chocolatey.org/packages/screentogif/
+[![Chocolatey](https://img.shields.io/chocolatey/v/screentogif.svg)](https://chocolatey.org/packages/screentogif) [![Chocolatey](https://img.shields.io/chocolatey/dt/screentogif.svg)](https://chocolatey.org/packages/screentogif)
+
+Welcome to the Chocolatey package for Screen to Gif.
 
 ## Frequently Updated
 
