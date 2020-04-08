@@ -25,7 +25,7 @@
     <projectSourceUrl>https://github.com/NickeManarin/ScreenToGif/tree/master</projectSourceUrl>
     <packageSourceUrl>https://github.com/NickeManarin/ScreenToGif-Chocolatey</packageSourceUrl>
     <docsUrl>https://github.com/NickeManarin/ScreenToGif/wiki</docsUrl>
-    <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.23.0</releaseNotes>
+    <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.23</releaseNotes>
     <bugTrackerUrl>https://github.com/NickeManarin/ScreenToGif/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/NickeManarin/ScreenToGif/issues</mailingListUrl>
     <tags>screen recording recorder gif editor foss media </tags>
@@ -35,7 +35,7 @@
 
     <dependencies>
       <dependency id="ffmpeg" version="4.2.2"/>
-      <dependency id="netfx-4.8" version="4.8.0.20190930"/>
+      <!-- <dependency id="netfx-4.8" version="4.8.0.20190930"/> -->
     </dependencies>
   </metadata>
 </package>
