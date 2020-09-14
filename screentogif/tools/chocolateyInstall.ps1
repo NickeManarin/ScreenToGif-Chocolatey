@@ -5,8 +5,8 @@ $exe = Join-Path $content 'ScreenToGif.exe'
 
 Install-ChocolateyZipPackage `
     -PackageName 'screentogif' `
-    -Url 'https://github.com/NickeManarin/ScreenToGif/releases/download/2.27/ScreenToGif.2.27.Portable.zip' `
-    -Checksum '46CEBE4715B6790B42ED0B5D912BE91393563F13DD9B442DF514A94994ECE8A8' `
+    -Url 'https://github.com/NickeManarin/ScreenToGif/releases/download/2.27.1/ScreenToGif.2.27.1.Portable.zip' `
+    -Checksum 'D4C98BF2C5F6FECEE6D1A750C78BF62CD36E9032BAB7299EA0D99CE0C80C1EA3' `
     -ChecksumType 'SHA256' `
     -UnzipLocation $content
 
