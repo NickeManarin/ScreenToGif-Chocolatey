@@ -19,7 +19,7 @@ default is MD5, but a stronger/longer checksum is preferred. PowerShell defaults
 to SHA256, which is fine.
 
 ```
-PS> Get-FileHash '.\ScreenToGif x.y.z.zip'
+PS> Get-FileHash '.\ScreenToGif.x.y.z.Portable.zip'
 
 Algorithm   Hash                                                               Path
 ---------   ----                                                               ----
