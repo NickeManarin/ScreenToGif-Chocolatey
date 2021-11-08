@@ -3,7 +3,7 @@
   <metadata>
     <id>screentogif</id>
     <title>Screen To Gif</title>
-    <version>2.34.0</version>
+    <version>2.34.1</version>
     <authors>ScreenToGif</authors>
     <owners>Nicke Manarin</owners>
     <summary>This tool allows you to record a selected area of your screen and save it as a gif or video.</summary>
@@ -17,7 +17,7 @@
 - A powerful editor with lots of options! You can edit your recording or even edit gifs from other sources.
 - You can export as Gif, Apng, Video, PSD or save as a project to edit later.
 - A clean and consistent interface, powered by WPF.
-- Over 25 different languages. Automatically detects the language of your system, defaults to English.
+- Over 26 different languages. Automatically detects the language of your system, defaults to English.
 - Lots of options.
 - Visit https://www.screentogif.com for more details.
     </description>
@@ -25,7 +25,7 @@
     <projectSourceUrl>https://github.com/NickeManarin/ScreenToGif/tree/master</projectSourceUrl>
     <packageSourceUrl>https://github.com/NickeManarin/ScreenToGif-Chocolatey</packageSourceUrl>
     <docsUrl>https://github.com/NickeManarin/ScreenToGif/wiki</docsUrl>
-    <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.34.0</releaseNotes>
+    <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.34.1</releaseNotes>
     <bugTrackerUrl>https://github.com/NickeManarin/ScreenToGif/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/NickeManarin/ScreenToGif/issues</mailingListUrl>
     <tags>screen recording recorder gif editor foss media </tags>
@@ -35,7 +35,6 @@
 
     <dependencies>
       <dependency id="ffmpeg" version="4.2.2"/>
-      <!-- <dependency id="netfx-4.8" version="4.8.0.20190930"/> -->
     </dependencies>
   </metadata>
 </package>
