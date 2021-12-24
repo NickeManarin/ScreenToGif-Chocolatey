@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>screentogif</id>
+    <id>screentogif.install</id>
     <title>Screen To Gif</title>
     <version>2.35.2</version>
     <authors>ScreenToGif</authors>
@@ -38,7 +38,6 @@ Screen, webcam and sketchboard recorder with an integrated editor.
 
     <dependencies>
       <dependency id="ffmpeg" version="4.2.2"/>
-      <dependency id="screentogif.portable" version="2.35.2"/>
     </dependencies>
   </metadata>
 </package>
