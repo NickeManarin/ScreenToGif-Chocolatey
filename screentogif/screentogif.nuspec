@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>screentogif</id>
-    <title>Screen To Gif</title>
+    <title>Screen To Gif (Portable)</title>
     <version>2.35.3</version>
     <authors>ScreenToGif</authors>
     <owners>Nicke Manarin</owners>
@@ -34,7 +34,7 @@ Screen, webcam and sketchboard recorder with an integrated editor.
     <tags>screen recording recorder gif editor foss media</tags>
     <licenseUrl>https://github.com/NickeManarin/ScreenToGif/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/NickeManarin/ScreenToGif-Chocolatey/master/screentogif.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/NickeManarin/ScreenToGif-Chocolatey@master/screentogif.png</iconUrl>
 
     <dependencies>
       <dependency id="ffmpeg" version="4.2.2"/>

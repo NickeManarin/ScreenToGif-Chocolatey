@@ -2,7 +2,7 @@
 
 [![Chocolatey](https://img.shields.io/chocolatey/v/screentogif.svg)](https://chocolatey.org/packages/screentogif) [![Chocolatey](https://img.shields.io/chocolatey/dt/screentogif.svg)](https://chocolatey.org/packages/screentogif)
 
-Welcome to the Chocolatey package for Screen to Gif.
+Welcome to the Chocolatey package for ScreenToGif.
 
 ## Frequently Updated
 
@@ -19,7 +19,7 @@ default is MD5, but a stronger/longer checksum is preferred. PowerShell defaults
 to SHA256, which is fine.
 
 ```
-PS> Get-FileHash '.\ScreenToGif x.y.z.zip'
+PS> Get-FileHash '.\ScreenToGif.Version.Type.Architecture.zip'
 
 Algorithm   Hash                                                               Path
 ---------   ----                                                               ----
@@ -38,11 +38,7 @@ PS> pngout .\screentogif.png
 Commit and push this. We need to get the canonical URL for this file before we
 can update or publish the package.
 
- 1. On GitHub, navigate to the file.
- 2. Press 'y' to view the [canonical URL](https://help.github.com/articles/getting-permanent-links-to-files/).
- 3. Click the "Raw" button to view the raw file.
- 4. Copy this URL into the field at http://rawgit.com.
- 5. Use the "production" URL in the package.
+Visit [jsDelivr](https://cdn.jsdelivr.net/gh/NickeManarin/ScreenToGif-Chocolatey@master) and copy the url of the image.
 
 ## Pack and Publish
 
