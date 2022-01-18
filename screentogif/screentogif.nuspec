@@ -3,7 +3,7 @@
   <metadata>
     <id>screentogif</id>
     <title>Screen To Gif (Portable)</title>
-    <version>2.35.3</version>
+    <version>2.35.4</version>
     <authors>ScreenToGif</authors>
     <owners>Nicke Manarin</owners>
     <summary>This tool allows you to record a selected area of your screen and save it as a gif or video.</summary>
@@ -28,7 +28,7 @@ Screen, webcam and sketchboard recorder with an integrated editor.
     <projectSourceUrl>https://github.com/NickeManarin/ScreenToGif/tree/master</projectSourceUrl>
     <packageSourceUrl>https://github.com/NickeManarin/ScreenToGif-Chocolatey</packageSourceUrl>
     <docsUrl>https://github.com/NickeManarin/ScreenToGif/wiki</docsUrl>
-    <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.35.3</releaseNotes>
+    <releaseNotes>https://github.com/NickeManarin/ScreenToGif/releases/tag/2.35.4</releaseNotes>
     <bugTrackerUrl>https://github.com/NickeManarin/ScreenToGif/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/NickeManarin/ScreenToGif/issues</mailingListUrl>
     <tags>screen recording recorder gif editor foss media</tags>
@@ -38,7 +38,7 @@ Screen, webcam and sketchboard recorder with an integrated editor.
 
     <dependencies>
       <dependency id="ffmpeg" version="4.2.2"/>
-      <dependency id="screentogif.portable" version="2.35.3"/>
+      <dependency id="screentogif.portable" version="2.35.4"/>
     </dependencies>
   </metadata>
 </package>
