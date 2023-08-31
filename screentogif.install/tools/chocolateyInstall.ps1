@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 
 $softwareName = 'ScreenToGif'
-$version = '2.37'
+$version = '2.38.1'
 if ($version -eq (Get-UninstallRegistryKey "$softwareName").DisplayVersion) {
   Write-Host "ScreenToGif $version is already installed."
   return
@@ -16,14 +16,14 @@ if ($version -eq (Get-UninstallRegistryKey "$softwareName").DisplayVersion) {
 $packageArgs = @{
   packageName    = 'screentogif.install'
   fileType       = 'msi'
-  url            = 'https://github.com/NickeManarin/ScreenToGif/releases/download/2.37/ScreenToGif.2.37.Setup.x86.msi'
-  url64bit       = 'https://github.com/NickeManarin/ScreenToGif/releases/download/2.37/ScreenToGif.2.37.Setup.x64.msi'
+  url            = 'https://github.com/NickeManarin/ScreenToGif/releases/download/2.38.1/ScreenToGif.2.38.1.Setup.x86.msi'
+  url64bit       = 'https://github.com/NickeManarin/ScreenToGif/releases/download/2.38.1/ScreenToGif.2.38.1.Setup.x64.msi'
 
   softwareName   = "$softwareName"
 
-  checksum       = '8A144639D3F13E14BBB25FC1F9CEFE8AC03C48284AFFE6BCC409837B72C4F0C1'
+  checksum       = 'C34F34CCEB74E970FD4477E888AAB6DB7A92CA9B0C1EE99B278071D8576E36F6'
   checksumType   = 'sha256'
-  checksum64     = 'C76E12EF9052CA8A163DA6385D75914E64203419ABF56AE3A417670EEDFAB868'
+  checksum64     = '969897125DA184EA7073AB6C50309EBADEEB93784B4EEB331AE575997CAD64DD'
   checksumType64 = 'sha256'
 
   silentArgs     = '/qn'
