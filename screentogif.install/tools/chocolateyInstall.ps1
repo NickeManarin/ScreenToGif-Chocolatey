@@ -1,7 +1,8 @@
 $ErrorActionPreference = 'Stop'
 
 $softwareName = 'ScreenToGif'
-$version = '2.41.0'
+$version = '2.41'
+
 if ($version -eq (Get-UninstallRegistryKey "$softwareName").DisplayVersion) {
   Write-Host "ScreenToGif $version is already installed."
   return
@@ -16,8 +17,8 @@ if ($version -eq (Get-UninstallRegistryKey "$softwareName").DisplayVersion) {
 $packageArgs = @{
   packageName    = 'screentogif.install'
   fileType       = 'msi'
-  url            = 'https://github.com/NickeManarin/ScreenToGif/releases/download/2.41/ScreenToGif.2.41.Setup.x86.msi'
-  url64bit       = 'https://github.com/NickeManarin/ScreenToGif/releases/download/2.41/ScreenToGif.2.41.Setup.x64.msi'
+  url            = "https://github.com/NickeManarin/ScreenToGif/releases/download/${version}/ScreenToGif.${version}.Setup.x86.msi"
+  url64bit       = "https://github.com/NickeManarin/ScreenToGif/releases/download/${version}/ScreenToGif.${version}.Setup.x64.msi"
 
   softwareName   = "$softwareName"
 
