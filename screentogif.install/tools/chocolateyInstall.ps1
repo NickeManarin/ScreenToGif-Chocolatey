@@ -1,7 +1,8 @@
 $ErrorActionPreference = 'Stop'
 
 $softwareName = 'ScreenToGif'
-$version = '2.39'
+$version = '2.41'
+
 if ($version -eq (Get-UninstallRegistryKey "$softwareName").DisplayVersion) {
   Write-Host "ScreenToGif $version is already installed."
   return
@@ -21,9 +22,9 @@ $packageArgs = @{
 
   softwareName   = "$softwareName"
 
-  checksum       = '36427753B5EA4D853689565218CB5D1DCE6BA99EA75AEF584946C1EFF25E6F97'
+  checksum       = '9DAE1E073AC89ED80943D9CC853163DC26B76492A884850D00B071ACE05D143B'
   checksumType   = 'sha256'
-  checksum64     = 'E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855'
+  checksum64     = 'F8B6B568314DD7E739501F8A11E9D6A0A7B7259110B8055E9C3E17BF5A1AAF81'
   checksumType64 = 'sha256'
 
   silentArgs     = '/qn'
