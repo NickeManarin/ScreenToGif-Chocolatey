@@ -37,7 +37,7 @@ Screen, webcam and sketchboard recorder with an integrated editor.
     <iconUrl>https://cdn.jsdelivr.net/gh/NickeManarin/ScreenToGif-Chocolatey@master/screentogif.png</iconUrl>
 
     <dependencies>
-      <dependency id="ffmpeg" version="4.4.1"/>
+      <dependency id="ffmpeg" version="6.0"/>
     </dependencies>
   </metadata>
 </package>
